@@ -1,0 +1,112 @@
+/* --- General Body & App Layout --- */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #4b5a70; /* soft neutral background */
+  color: #1c1c1e;      /* dark elegant text */
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Smooth transitions for everything */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #4a90e2;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons - general style */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #4a90e2;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+button:hover {
+  background: #357ab7;
+  transform: translateY(-1px);
+}
+
+/* Inputs & Textareas */
+input, textarea, select {
+  font-family: inherit;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74,144,226,0.2);
+}
+
+/* Container / main content */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Card style for sections */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
+}
+th {
+  background: #f5f7fa;
+  font-weight: 600;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.75rem 0;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer (optional) */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
