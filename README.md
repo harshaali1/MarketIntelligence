@@ -1,4 +1,4 @@
-# MarketIntellgence — Project1
+# MarketIntellgence 
 
 Lightweight full-stack finance analysis app (backend in Python, frontend in Vue.js).
 
